@@ -1,0 +1,37 @@
+import java.awt.*;
+
+public class Board {
+
+
+
+	public static Frame Frame= new Frame("Trouble");
+	public static Button[] buts = new Button[28];
+	
+	public static void main(String[] args) {
+		
+		 for (int i = 0; i < buts.length; i++) {
+	          buts[i] = new Button();
+	      }
+
+
+	        Frame.setSize(480,368);
+
+	        buts[0].setLabel("testbut1");
+
+	        buts[1].setLabel("testbut2");
+	        
+
+	        Frame.add(buts[0]);
+
+	        Frame.add(buts[1]);
+
+	        Frame.show();
+	        
+	   
+
+	    }
+
+	    
+
+	}
+
